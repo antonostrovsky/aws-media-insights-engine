@@ -77,14 +77,14 @@ Note, hot-reload won't work when webpack-subresource-integrity is enabled. To di
 You can give people access to the MIE content analysis application by creating them an account using Amazon Cognito.
 
 1. Open the user pool for your MIE stack under Amazon Cognito
-![](doc/images/Cognito1-manage_user_pools.png)
+![](/doc/images/Cognito1-manage_user_pools.png)
 2. Click the "Create user" button
-![](doc/images/Cognito2-create_user)
+![](/doc/images/Cognito2-create_user)
 3. Specify the username and password then click the "Create user" button
-![](doc/images/Cognito3-set_password)
+![](/doc/images/Cognito3-set_password)
 4. Open the user you just created
-![](doc/images/Cognito4-edit_user)
+![](/doc/images/Cognito4-edit_user)
 5. Add the user to the "MIEDevelopersGroup" 
-![](doc/images/Cognito5-add_to_group)
+![](/doc/images/Cognito5-add_to_group)
 
 Now that user should be able to use the MIE content analysis application.
