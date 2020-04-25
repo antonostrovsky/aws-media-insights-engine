@@ -27,7 +27,7 @@ Join our Gitter chat at [https://gitter.im/awslabs/aws-media-insights-engine](ht
 
 ## Running a Development Environment:
 
-Here's how to run this project on an Amazon Linux Docker container:
+Here's how to run the demo app on an Amazon Linux Docker container:
 
 ### Start an Amazon Linux container
 ```
@@ -56,6 +56,7 @@ npm install
 ```
 
 ### Define the following environment variables in `webapp/public/runtimeConfig.json`:
+These values will be in your CloudFormation stack once you've deployed MIE in your AWS account. 
 * ELASTICSEARCH_ENDPOINT
 * WORKFLOW_API_ENDPOINT
 * DATAPLANE_API_ENDPOINT
